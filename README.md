@@ -1,14 +1,14 @@
-#Disclaimer:
+# Disclaimer:
 
-##This README file is intended for educational purposes ONLY. The information provided here should NOT be used to exploit systems or harm others. SQL and Command Injection are serious vulnerabilities that can be exploited by malicious actors to gain unauthorized access to systems and data. Using these techniques without proper authorization is illegal and unethical.
+## This README file is intended for educational purposes ONLY. The information provided here should NOT be used to exploit systems or harm others. SQL and Command Injection are serious vulnerabilities that can be exploited by malicious actors to gain unauthorized access to systems and data. Using these techniques without proper authorization is illegal and unethical.
 
-##If you choose to proceed with this assignment, it is crucial to understand the potential consequences of your actions. You should only perform these exercises in a controlled environment where you have explicit permission to do so.
+## If you choose to proceed with this assignment, it is crucial to understand the potential consequences of your actions. You should only perform these exercises in a controlled environment where you have explicit permission to do so.
 
-#Steps to Execute SQL and Command Injection:
+# Steps to Execute SQL and Command Injection:
 
 Note: These steps are provided for educational purposes only. Please use them responsibly and ethically.
 
-SQL Injection:
+## SQL Injection:
 
 Identify Vulnerable Input Fields: Look for web applications that accept user-supplied input, such as search boxes, login forms, or registration forms.
 Construct Malicious Input: Create input that includes SQL syntax, such as single quotes ('), double quotes ("), semicolons (;), or special characters.
@@ -24,7 +24,7 @@ Use code with caution.
 
 This input attempts to bypass the original query and always return results.
 
-Command Injection:
+## Command Injection:
 
 Identify Vulnerable Input Fields: Look for web applications that accept user-supplied input that is passed to an operating system command.
 Construct Malicious Input: Create input that includes operating system commands, such as ls, cat, or pwd.
