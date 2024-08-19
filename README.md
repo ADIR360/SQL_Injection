@@ -1,10 +1,10 @@
-Disclaimer:
+#Disclaimer:
 
-This README file is intended for educational purposes ONLY. The information provided here should NOT be used to exploit systems or harm others. SQL and Command Injection are serious vulnerabilities that can be exploited by malicious actors to gain unauthorized access to systems and data. Using these techniques without proper authorization is illegal and unethical.
+##This README file is intended for educational purposes ONLY. The information provided here should NOT be used to exploit systems or harm others. SQL and Command Injection are serious vulnerabilities that can be exploited by malicious actors to gain unauthorized access to systems and data. Using these techniques without proper authorization is illegal and unethical.
 
-If you choose to proceed with this assignment, it is crucial to understand the potential consequences of your actions. You should only perform these exercises in a controlled environment where you have explicit permission to do so.
+##If you choose to proceed with this assignment, it is crucial to understand the potential consequences of your actions. You should only perform these exercises in a controlled environment where you have explicit permission to do so.
 
-Steps to Execute SQL and Command Injection:
+#Steps to Execute SQL and Command Injection:
 
 Note: These steps are provided for educational purposes only. Please use them responsibly and ethically.
 
@@ -19,7 +19,7 @@ Example:
 If a website has a search box that accepts user input, you might try entering the following:
 
 SQL
-'''OR 1=1 --
+''' OR 1=1 -- '''
 Use code with caution.
 
 This input attempts to bypass the original query and always return results.
@@ -34,7 +34,7 @@ Example:
 
 If a website allows users to upload files with custom filenames, you might try uploading a file named:
 
-'''image.jpg; ls
+''' image.jpg; ls '''
 This input attempts to execute the ls command after the file upload.
 
 Additional Considerations:
