@@ -19,7 +19,7 @@ Example:
 If a website has a search box that accepts user input, you might try entering the following:
 
 SQL
-''' OR 1=1 -- '''
+``` OR 1=1 -- ```
 Use code with caution.
 
 This input attempts to bypass the original query and always return results.
@@ -34,7 +34,7 @@ Example:
 
 If a website allows users to upload files with custom filenames, you might try uploading a file named:
 
-''' image.jpg; ls '''
+``` image.jpg; ls ```
 This input attempts to execute the ls command after the file upload.
 
 Additional Considerations:
